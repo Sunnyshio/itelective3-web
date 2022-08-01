@@ -18,4 +18,5 @@
 [logo3]: https://github.com/Sunnyshio/itelective3-web/blob/main/Untitled%20design%20(2).png
 
 ## Purpose and Details of the System 
-> This area explains the details and purpose of the customer management system
+> The system structure is responsible for the flow of information all throughout a specific customer service in Nissan Gateway. 
+> This determines the outcome of every service delivery, from how it is processed by agents, technicians, and other offciers through an organized and systematic way of handling client-based information. 

@@ -6,11 +6,11 @@
 ## Frameworks Used
 
 - ### Wordpress
-![alt text][logo2]
+  ![alt text][logo2]
 
-[logo2]: https://p.kindpng.com/picc/s/140-1400810_wordpress-logo-png-pic-wordpress-png-transparent-png.png
+[logo2]: https://github.com/Sunnyshio/itelective3-web/blob/main/Untitled%20design%20(3).png
 
 - ### WooCommerce
-![alt text][logo3]
+  ![alt text][logo3]
 
 [logo3]: https://github.com/Sunnyshio/itelective3-web/blob/main/Untitled%20design%20(2).png

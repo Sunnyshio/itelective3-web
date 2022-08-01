@@ -4,7 +4,6 @@
 
 [logo]: https://seeklogo.com/images/N/Nissan-logo-4B3C580C8A-seeklogo.com.png
 ## Frameworks Used
-
 - ### Wordpress
   ![alt text][logo2]
 

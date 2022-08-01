@@ -3,10 +3,10 @@
 
 [logo]: https://seeklogo.com/images/N/Nissan-logo-4B3C580C8A-seeklogo.com.png
 
-## Customer Management System 
+### Customer Management System
 - [Customer Service Information System Diagram](https://github.com/Sunnyshio/itelective3-web/blob/main/Use-Case-Diagram-for-Customer-Service-Information-System.png)
 
-## Frameworks Used
+### Frameworks Used
 - ### Wordpress
   ![alt text][logo2]
 
@@ -17,6 +17,6 @@
 
 [logo3]: https://github.com/Sunnyshio/itelective3-web/blob/main/Untitled%20design%20(2).png
 
-## Purpose and Details of the System 
+### Purpose and Details of the System 
 > The system structure is responsible for the flow of information all throughout a specific customer service in Nissan Gateway. 
 > This determines the outcome of every service delivery, from how it is processed by agents, technicians, and other offciers through an organized and systematic way of handling client-based information. 

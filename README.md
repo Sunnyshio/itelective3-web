@@ -3,8 +3,8 @@
 
 [logo]: https://seeklogo.com/images/N/Nissan-logo-4B3C580C8A-seeklogo.com.png
 
-## System Used
-[Customer Management System](https://github.com/Sunnyshio/itelective3-web/blob/main/Use-Case-Diagram-for-Customer-Service-Information-System.png)
+## Customer Management System 
+- [Customer Service Information System Diagram](https://github.com/Sunnyshio/itelective3-web/blob/main/Use-Case-Diagram-for-Customer-Service-Information-System.png)
 
 ## Frameworks Used
 - ### Wordpress

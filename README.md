@@ -1,4 +1,3 @@
-## itelective3-web
 # Nissan Gateway
 ![alt text][logo]
 

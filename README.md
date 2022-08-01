@@ -16,3 +16,6 @@
   ![alt text][logo3]
 
 [logo3]: https://github.com/Sunnyshio/itelective3-web/blob/main/Untitled%20design%20(2).png
+
+## Purpose and Details of the System 
+> This area explains the details and purpose of the customer management system

@@ -20,3 +20,8 @@
 ### Purpose and Details of the System 
 > The system structure is responsible for the flow of information all throughout a specific customer service in Nissan Gateway. 
 > This determines the outcome of every service delivery, from how it is processed by agents, technicians, and other offciers through an organized and systematic way of handling client-based information. 
+
+### List of Possible Sub-systems
+- Center Agent Information Flow System
+- Technician Information Processing and Delivery System 
+- Marketing Department Information Processing System 

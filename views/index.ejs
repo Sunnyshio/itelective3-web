@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-400">
+    <nav class="py-4 bg-gray-600">
+        <div class="container mx-auto px-2 text-lg flex text-white font-semibold justify-between">
+            <div style="display:inline-block;vertical-align:top;">
+                <img class="h-10 inline py-0" src="https://cdn-icons-png.flaticon.com/512/648/648198.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                Davao Weather Forecast
+            </div>
+        <div>
+            <ul class="flex space-x-4 text-lg text-white font-light">
+                <Button class="bg-slate-400 px-3 rounded">Home</Button>
+                <Button class="bg-slate-400 px-3 rounded">Other</Button>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <section id="country" class="py-10">
+        <center>
+        <div class="container mx-auto px-7 text-white font-serif text-lg">
+            <img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/4855/4855761.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+            Davao City, Philippines
+            <ul class="align-sub">7.1907° N, 125.4553° E</ul>
+        </div>
+        </center>
+    </section>
+
+    <section id="fetchweather">
+        <center>
+        <div>
+            <ul class="flex space-x-12 text-lg text-white font-serif justify-center">
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/2698/2698213.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> Today </div>
+                    <div class="py-1"><%= panahon[0]['current']['skytext']%></div>
+                    <div class="text-center "> <%= panahon[0]['current']['date']%> </div>
+                    <div class="italic"> <%= panahon[0]['current']['temperature']%> ° C </div></li>
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/3222/3222801.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> <%= panahon[0]['forecast'][0]['day']%> </div>
+                    <div class="py-1"><%= panahon[0]['forecast'][0]['skytextday']%></div>
+                    <div class="text-center "> <%= panahon[0]['forecast'][0]['date']%> </div>
+                    <div class="text-center italic"> <%= panahon[0]['forecast'][0]['high']%> ° C </div></li>
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/3222/3222801.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> <%= panahon[0]['forecast'][1]['day']%> </div>
+                    <div class="py-1"><%= panahon[0]['forecast'][1]['skytextday']%></div>
+                    <div class="text-center "> <%= panahon[0]['forecast'][1]['date']%> </div>
+                    <div class="text-center italic"> <%= panahon[0]['forecast'][1]['high']%> ° C </div></li>
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/1146/1146914.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> <%= panahon[0]['forecast'][2]['day']%> </div>
+                    <div class="py-1"><%= panahon[0]['forecast'][2]['skytextday']%></div>
+                    <div class="text-center "> <%= panahon[0]['forecast'][2]['date']%> </div>
+                    <div class="text-center italic"> <%= panahon[0]['forecast'][2]['high']%> ° C </div></li>
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/3222/3222801.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> <%= panahon[0]['forecast'][3]['day']%> </div>
+                    <div class="py-1"><%= panahon[0]['forecast'][3]['skytextday']%></div>
+                    <div class="text-center "> <%= panahon[0]['forecast'][3]['date']%> </div>
+                    <div class="text-center italic"> <%= panahon[0]['forecast'][3]['high']%> ° C </div></li>
+                <li class="py-2"><img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/1146/1146914.png" alt="img" class="mr-3 h-6 sm:h-10"/>
+                    <div class="text-center "> <%= panahon[0]['forecast'][4]['day']%> </div>
+                    <div class="py-1"><%= panahon[0]['forecast'][4]['skytextday']%></div>
+                    <div class="text-center "> <%= panahon[0]['forecast'][4]['date']%> </div>
+                    <div class="text-center italic"> <%= panahon[0]['forecast'][4]['high']%> ° C </div></li>
+            </ul>
+        </div>
+    </center>
+    </section>
+</body>
+</html>
